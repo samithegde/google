@@ -1,0 +1,138 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  font-size: 14px;
+}
+
+header nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+header .right {
+  display: flex;
+  align-items: center;
+}
+
+.apps {
+  width: 24px;
+  height: 24px;
+  background: url('https://ssl.gstatic.com/gb/images/bar/al-icon.png') center/cover no-repeat;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.signin {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.logo {
+  width: 272px;
+  height: auto;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 10px 20px;
+  width: 580px;
+  margin-top: 30px;
+}
+
+.search-box input {
+  border: none;
+  flex: 1;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-icon, .mic, .lens {
+  font-size: 18px;
+  margin: 0 10px;
+  opacity: 0.6;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.buttons button:hover {
+  border: 1px solid #dadce0;
+}
+
+.language {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.language a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+footer {
+  background: #f2f2f2;
+  padding: 15px 30px;
+  font-size: 14px;
+  margin-top: auto;
+}
+
+footer .country {
+  text-align: left;
+  margin-bottom: 10px;
+  color: #70757a;
+}
+
+footer .links {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #70757a;
+}
